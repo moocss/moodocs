@@ -1,0 +1,50 @@
+/*reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;}a:hover{text-decoration:underline;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}abbr[title]{border-bottom:1px dotted;cursor:help;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;}button,input,select{vertical-align:middle;}button{cursor:pointer;}table{border-collapse:collapse;border-spacing:0;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}
+/*common*/
+body{ background:#F4F5F5; color:#333;}
+a {color: #6B7B95;background-color: transparent;text-decoration: underline;}
+a:hover,
+a:active {color: #E79D35;background-color: transparent;}
+pre {padding: 5px 7px;background-color:#fff;border: 1px solid #ddd;line-height:1.5;overflow:auto;word-wrap:break-word;text-shadow:none; margin-bottom:20px;border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px;}
+/*site*/
+#container {width: 980px;margin:0 auto;padding:20px 0;overflow:hidden;}
+#top-bar { margin-bottom:10px;background:#000;height:55px; width:100%; }
+#top-bar-inner{ margin:0 auto; width:980px;height:55px; }
+#logo{ float:left; height:55px; line-height:55px; font-size:24px; color:#fff;  background:url(mootools.png) no-repeat 0 center; padding-left:190px; position:relative;}
+#logo span{ position:absolute; background:#C17878; color:#fff; border:1px solid #000; border-width:0px 2px 2px 1px; padding:0 5px;  width:365px; text-align:center;text-shadow: 0 0 20px #000;}
+#nav{ float:right; height:45px; padding-top:10px; }
+#nav li{ float:left; display:inline; margin-left:5px;}
+#nav li a{ display:inline-block; height:45px; line-height:45px;background:#C17878; color:#fff;  font-size:18px; text-decoration:none; padding:0 15px;text-shadow: 0 0 10px #000;}
+#nav li a:hover,#nav li a.current{ background:#F4F5F5; color:#000;}
+#footer{ border-top:2px solid #000; background:#fff; text-align:center; height:45px; line-height:45px; position:relative;}
+#footer .go-top{ position:absolute; top:-30px; right:10%; background:#000; color:#fff; line-height:30px; height:30px; padding:0 10px;}
+#menu {float: left;width: 150px;}
+#menu ul li strong {display: block;border-bottom: 1px solid #eee;font-size: 1.4em;line-height:1.5em;}
+#menu ul ul{text-align: right;margin: 1em 0;}
+#menu ul ul li{line-height:1.6em;}
+#menu ul ul li a {display: block;}
+#menu ul ul li a.selected {color: #313334;font-weight: bold;text-decoration: none;}
+#menu a:focus {font-weight: bold;}
+#docs {margin: 0 0 0 175px;}
+#docs h1, #docs h2 {padding: 0 0 .3em;border-bottom:1px solid #ddd;margin-bottom:0.75em;}
+#docs h1,
+#docs h1 a{color: #C17878;background-color: transparent;text-decoration: none;font-size:196%;}
+#docs h2,
+#docs h2 a {color: #78BA91;background-color: transparent;text-decoration: none;font-size:167%; margin:20px 0 10px;}
+#docs h1 a:hover,#docs h2 a:hover {text-decoration: none;}
+#docs h3{font-size:146.5%; margin-bottom:20px;}
+#docs h4{font-size:123.1%; margin-bottom:10px;}
+#docs h5{font-size:100%; margin-bottom:10px;}
+#docs p{ line-height:2; margin-bottom:10px;}
+#docs em {color: #686C70;font-style: normal;}
+#docs hr{ margin:20px 0;}
+.doc .content {margin: 0 160px 0 0;padding: 0 25px;border-left: 1px solid #ddd;border-right: 1px solid #ddd;line-height:1.5em;}
+.doc .content ul,.doc .content ol { margin-bottom:20px;}
+.doc .content ul li,.doc .content ol li{ background:url(dot.png) no-repeat 0 8px; padding-left:15px; margin-bottom:5px; line-height:1.6em;  }
+.doc .methods {	float: right;width: 150px;}
+.methods ul li strong {font-size: 1.6em;}
+.methods ul ul{margin: 1em 0;}
+table {border-spacing: 0px 0px;border-collapse: separate;width: 100%;}
+td, th {padding: 4px 10px 4px 5px;padding-left: 1em;padding-right: 1em;}
+td {border-bottom: 1px solid #ddd;border-top: 1px solid #f4f5f5;}
+th {text-shadow: 0 1px rgba(255, 255, 255, 0.8);border-bottom: 1px solid #d4d4d4;padding-top: 0.6em;color: #686c70;}
